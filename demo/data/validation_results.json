@@ -1,0 +1,37 @@
+[
+  {
+    "store": "北门饭堂",
+    "paid": true,
+    "asset_adoption_rate": 0.78,
+    "operation_minutes": 3.8,
+    "incremental_profit": 132.4
+  },
+  {
+    "store": "茶里同学",
+    "paid": true,
+    "asset_adoption_rate": 0.67,
+    "operation_minutes": 4.6,
+    "incremental_profit": 98.0
+  },
+  {
+    "store": "麦香烘焙",
+    "paid": true,
+    "asset_adoption_rate": 0.72,
+    "operation_minutes": 4.1,
+    "incremental_profit": 116.8
+  },
+  {
+    "store": "夜猫炒饭",
+    "paid": false,
+    "asset_adoption_rate": 0.54,
+    "operation_minutes": 6.2,
+    "incremental_profit": 71.5
+  },
+  {
+    "store": "南门粉面",
+    "paid": false,
+    "asset_adoption_rate": 0.61,
+    "operation_minutes": 4.9,
+    "incremental_profit": 86.3
+  }
+]
