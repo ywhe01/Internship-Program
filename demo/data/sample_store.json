@@ -1,0 +1,10 @@
+{
+  "store_name": "北门饭堂",
+  "product_name": "照烧鸡腿饭",
+  "list_price": 18.0,
+  "ingredient_cost": 7.2,
+  "packaging_cost": 1.0,
+  "platform_fee_rate": 0.0,
+  "remaining_stock": 20,
+  "channels": ["微信群", "小红书", "抖音同城"]
+}
