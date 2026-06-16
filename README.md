@@ -46,19 +46,16 @@ streamlit run demo/app.py
 配置以下环境变量后，侧边栏可启用真实模型。模型只润色内容，不参与定价。
 
 ```bash
-OPENAI_API_KEY=your_key
-OPENAI_MODEL=gpt-4.1-mini
-# 可选：任何 OpenAI-compatible 服务地址
-OPENAI_BASE_URL=https://api.openai.com/v1
+OPENAI_API_KEY=
+OPENAI_MODEL=
+OPENAI_BASE_URL=
 ```
-
-仓库不包含 `.env` 或 `.streamlit/secrets.toml`，也不提交任何真实密钥。
 
 ## 项目交付
 
 | 交付物 | 位置 |
 |---|---|
-| 一页 A4 Word | [`final/邻校掌柜_一页A4提交版.docx`](final/邻校掌柜_一页A4提交版.docx) |
+| 一页 A4 Word | [`final/邻校掌柜.docx`](final/邻校掌柜.docx) |
 | Streamlit MVP | [`demo/app.py`](demo/app.py) |
 | 机会验证说明 | [`docs/opportunity-validation.md`](docs/opportunity-validation.md) |
 | 产品与 MVP | [`docs/product-and-mvp.md`](docs/product-and-mvp.md) |

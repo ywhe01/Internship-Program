@@ -12,7 +12,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-OUTPUT = ROOT / "final" / "邻校掌柜_一页A4提交版.docx"
+OUTPUT = ROOT / "final" / "邻校掌柜.docx"
 
 NAVY = "18324A"
 TEAL = "0E7C74"

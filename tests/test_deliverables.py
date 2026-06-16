@@ -11,7 +11,7 @@ def test_required_deliverables_exist():
     required = [
         ROOT / "README.md",
         ROOT / "demo" / "app.py",
-        ROOT / "final" / "邻校掌柜_一页A4提交版.docx",
+        ROOT / "final" / "邻校掌柜.docx",
         ROOT / "assets" / "workflow.png",
         ROOT / "assets" / "chat-demo.png",
         ROOT / "assets" / "campaign-poster.png",
@@ -22,7 +22,7 @@ def test_required_deliverables_exist():
 
 
 def test_document_is_a4_and_contains_required_sections():
-    path = ROOT / "final" / "邻校掌柜_一页A4提交版.docx"
+    path = ROOT / "final" / "邻校掌柜.docx"
     document = Document(path)
     section = document.sections[0]
     assert abs(section.page_width.cm - 21.0) < 0.05
